@@ -30,7 +30,7 @@ a:hover{
 
 .navbar-logo img{
   max-width: 70px;
-  height: auto;
+  height: auto; 
 }
 
 
@@ -50,7 +50,7 @@ a:hover{
 }
 
 .container {
-  width: calc(100% - 90px);
+  width: calc(100% - 100px);
   height: 100%;
   margin-top: 110px;
 }
