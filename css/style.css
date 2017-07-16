@@ -1,8 +1,17 @@
 html,body{
 	width:100%;
   height: 100%;
+  font-family: "NotoSansCJKjp";
 }
 
+/*.top{
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000ff;
+  z-index: 1000;
+}
+*/
 
 a:hover{
   color: #0000ff;
@@ -18,8 +27,8 @@ a:hover{
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
-  z-index: 2;
+  width: 10%;
+  z-index: -1000;
 }
 
 .navbar-logo{
@@ -50,9 +59,10 @@ a:hover{
 }
 
 .container {
-  width: calc(100% - 100px);
+  width: calc(100% - 120px);
   height: 100%;
   margin-top: 110px;
+  margin-left: 15px;
 }
 
 /* clearfix */
@@ -65,19 +75,19 @@ a:hover{
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 200px;
+  width: 180px;
   height: 120px;
   margin: 3px;
   float: left;
-  background: #D26;
+  background: #000000;
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
 }
 
-.grid-item--width2 { width: 200px; }
-.grid-item--width3 { width: 200px; }
-.grid-item--width4 { width: 200px; }
+.grid-item--width2 { width: 180px; }
+.grid-item--width3 { width: 180px; }
+.grid-item--width4 { width: 180px; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
