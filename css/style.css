@@ -48,6 +48,7 @@ a:hover{
 }
 
 .navbar {
+  opacity: 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -83,6 +84,7 @@ a:hover{
 }
 
 .container {
+  opacity: 0;
   width: calc(100% - 120px);
   height: 100%;
   margin-top: 110px;

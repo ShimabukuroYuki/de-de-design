@@ -3,6 +3,10 @@ $(function(){
 	  itemSelector: '.grid-item'
 	});
 
+  setTimeout(function(){
+    $(".navbar,.container").addClass('animated fadeIn');
+  },2000);
+
   $('#img').hover(function() {
     $(this).attr('src', 'image/logo.jpg');
   }, function() {
