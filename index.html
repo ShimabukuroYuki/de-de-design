@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="image/favicon.ico">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -16,12 +17,15 @@
 
 
 <div class="wrapper">
-<div class="top"></div>
+<div id="top" class="top animated">
+  <img class="logo animated" src="image/top.png">
+</div>
+
 
   <div class="navbar">
     <nav>
       <div class="navbar-logo">
-        <img src="image/logo-blackandwhite.jpg" alt="残念...画像がないよ">
+        <img id="img" src="image/logo-blackandwhite.jpg" alt="残念...画像がないよ">
       </div>
       <ul class="navbar-menu">
         <li><a>制作物\Works</a></li>
