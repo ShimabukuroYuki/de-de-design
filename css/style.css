@@ -37,7 +37,15 @@ html,body{
   opacity: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 a:hover{
+  color: #0B318F;
+}
+
+a:visited{
   color: #0B318F;
 }
 
@@ -52,8 +60,8 @@ a:hover{
   position: fixed;
   top: 0;
   right: 0;
-  width: 10%;
-  z-index: -1000;
+/*  width: 10%;
+*/  z-index: -1000;
 }
 
 .navbar-logo{
@@ -101,7 +109,7 @@ a:hover{
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 180px;
+  width: 160px;
   height: 120px;
   margin: 3px;
   float: left;
@@ -111,9 +119,9 @@ a:hover{
   border-radius: 5px;
 }
 
-.grid-item--width2 { width: 180px; }
-.grid-item--width3 { width: 180px; }
-.grid-item--width4 { width: 180px; }
+.grid-item--width2 { width: 160px; }
+.grid-item--width3 { width: 160px; }
+.grid-item--width4 { width: 160px; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
