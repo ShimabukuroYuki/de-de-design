@@ -3,10 +3,6 @@ $(function(){
 	  itemSelector: '.grid-item'
 	});
 
-  setTimeout(function(){
-    $(".navbar,.container").addClass('animated fadeIn');
-  },2000);
-
   $('#img').hover(function() {
     $(this).attr('src', 'image/logo.jpg');
   }, function() {
@@ -17,22 +13,26 @@ $(function(){
     $('.top-slide-container').addClass('animated slideInLeft');
     setTimeout(function(){
       $('.top-slide-logo').addClass('animated fadeIn');
-    },1500);
+    },2000);
 
     setTimeout(function(){
        $('.top-slide-container').removeClass('slideInLeft');
        $('.top-slide-container').addClass('slideOutLeft');
+
+        setTimeout(function(){
+          $(".navbar,.container").addClass('animated fadeIn');
+        },1500);
     },3000);
   }
 
   slideAnimation()
 
    // #で始まるアンカーをクリックした場合に処理
-   $('a[href^=#]').click(function() {
+   $('.navbar-menu li a').click(function() {
       // スクロールの速度
       var speed = 400; // ミリ秒
       // アンカーの値取得
-      var href= $(this).attr("href");
+      var href = $(this).attr("href");
       // 移動先を取得
       var target = $(href == "#" || href == "" ? 'html' : href);
       // 移動先を数値で取得
