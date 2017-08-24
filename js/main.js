@@ -3,6 +3,7 @@ $(function(){
 	  itemSelector: '.grid-item'
 	});
 
+
   $('#img').hover(function() {
     $(this).attr('src', 'image/logo.jpg');
   }, function() {
