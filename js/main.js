@@ -5,9 +5,9 @@ $(function(){
 
 
   $('#img').hover(function() {
-    $(this).attr('src', 'image/logo.jpg');
+    $(this).attr('src', 'images/logo.jpg');
   }, function() {
-    $(this).attr('src', 'image/logo-blackandwhite.jpg');
+    $(this).attr('src', 'images/logo-blackandwhite.jpg');
   });
 
   function slideAnimation(){
