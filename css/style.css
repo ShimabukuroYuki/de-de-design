@@ -102,7 +102,7 @@ a{
   opacity: 0;
   width: calc(100% - 120px);
   height: 100%;
-  margin-top: 110px;
+  margin-top: 103px;
   margin-left: 15px;
 }
 
@@ -124,8 +124,32 @@ a{
   border-radius: 6px;
 }
 
-@media screen and (min-width:768px){
-  
+@media screen and (max-width:480px) {
+  .navbar{
+    width:20%;
+  }
+
+  .container{
+    width:40%;
+  }
+
+  .grid-item{
+    width:40%;
+  }
+
+  .top-slide-logo{
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
 }
 
 
