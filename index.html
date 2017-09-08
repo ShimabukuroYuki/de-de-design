@@ -2,15 +2,19 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>dE dE design</title>
 	<meta name="description" content="シマブクロユウキ Portfolio Site">
 	<meta name="keywords" content="シマブクロユウキ,島袋裕樹,デザイン,ポートフォリオ">
 	<meta name="author" content="Shimabukuro Yuki">
-  <link rel="shortcut icon" href="image/favicon.ico">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -19,19 +23,19 @@
 <div class="wrapper">
   <div class="top-slide-container">
     <div class="top-slide-inner">
-      <img class="top-slide-logo" src="image/top.png">
+      <img class="top-slide-logo" src="images/top.png">
     </div>
   </div>
 
   <div class="navbar">
     <nav>
       <div class="navbar-logo">
-        <img id="img" src="image/logo-blackandwhite.jpg" alt="残念...画像がないよ">
+        <img id="img" src="images/logo-blackandwhite.jpg" alt="残念...画像がないよ">
       </div>
       <ul class="navbar-menu">
         <li><a href="#works">制作物\Works</a></li>
-        <li><a>シマブクロユウキとは\About</a></li>
-        <li><a>連絡先\Contact</a></li>
+        <li><a href="about.html">シマブクロユウキとは\About</a></li>
+        <li><a href="contact.html">連絡先\Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -39,52 +43,165 @@
 
   <div class="container"><a id="works"></a>
     <div class="grid">
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width2 grid-item--height3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--width2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width2 grid-item--height3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--width2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
+      <div class="grid-item">
+        <a href="images/kaisei.png" data-lightbox="group1" data-title="休日と快晴と君と">
+          <img src="images/kaisei.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/soundshape.png" data-lightbox="group2" data-title="sound shape">
+          <img src="images/soundshape.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/sonzai.png" data-lightbox="group3" data-title="彼と彼の存在理由">
+          <img src="images/sonzai.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/campanella.png" data-lightbox="group4" data-title="午前0時のカンパネラ">
+          <img src="images/campanella.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/hero.png" data-lightbox="group5" data-title="I AM A HERO">
+          <img src="images/hero.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/sodium.png" data-lightbox="group6" data-title="sodium">
+          <img src="images/sodium.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/ituwari.png" data-lightbox="group7" data-title="偽りの世界">
+          <img src="images/ituwari.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/juoumujin.png" data-lightbox="group8" data-title="縦横無尽 空前絶後">
+          <img src="images/juoumujin.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/dione.png" data-lightbox="group9" data-title="ディオネ">
+          <img src="images/dione.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/gomora.png" data-lightbox="group10" data-title="ゴモラ">
+          <img src="images/gomora.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/pancake.png" data-lightbox="group11" data-title="パンケーキとブルーベリー">
+          <img src="images/pancake.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/aurora.png" data-lightbox="group12" data-title="オーロラの夜に">
+          <img src="images/aurora.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/botan.png" data-lightbox="group13" data-title="牡丹の花">
+          <img src="images/botan.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/cobalt.png" data-lightbox="group14" data-title="コバルトサマー">
+          <img src="images/cobalt.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/cuty.png" data-lightbox="group15" data-title="きゅーてぃろーる">
+          <img src="images/cuty.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/denpa.png" data-lightbox="group16" data-title="電波ガール">
+          <img src="images/denpa.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/ituka.png" data-lightbox="group17" data-title="いつかきっと">
+          <img src="images/ituka.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/kimimade.png" data-lightbox="group18" data-title="君まであと4センチ">
+          <img src="images/kimimade.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/kuzureta.png" data-lightbox="group19" data-title="崩れた理想">
+          <img src="images/kuzureta.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/machine.png" data-lightbox="group20" data-title="machine heart">
+          <img src="images/machine.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/metro.png" data-lightbox="group21" data-title="メトロポリス">
+          <img src="images/metro.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/nemurenai.png" data-lightbox="group22" data-title="眠れない夜には">
+          <img src="images/nemurenai.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/ragna.png" data-lightbox="group23" data-title="機動装甲ラグナギア">
+          <img src="images/ragna.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/siroi.png" data-lightbox="group24" data-title="白い朝">
+          <img src="images/siroi.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/tewotunagou.png" data-lightbox="group25" data-title="まずは手をつなごう">
+          <img src="images/tewotunagou.png">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="images/yokohama.png" data-lightbox="group26" data-title="ヨコハマミルク">
+          <img src="images/yokohama.png">
+        </a>
+      </div>
+
+      
+
+      
     </div>
   </div>
 </div>
