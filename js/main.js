@@ -1,7 +1,12 @@
 $(function(){
-	$('.grid').masonry({
-	  itemSelector: '.grid-item'
-	});
+
+
+  $('.grid').imagesLoaded(function(){
+    $('.grid').masonry({
+        itemSelector: '.grid-item'
+    });
+  })
+	
 
 
   $('#img').hover(function() {
