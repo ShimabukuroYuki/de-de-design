@@ -6,10 +6,9 @@
 html,body{
 	width:100%;
   height: 100%;
-  font-family: "Avenir";
-  font-weight: bold;
   color: #0446BA;
   -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .top-slide-container{
@@ -48,6 +47,7 @@ html,body{
 }
 
 .top-logo{
+  opacity: 0;
   margin-left: 25px;
   margin-top: 70px;
 }
@@ -58,18 +58,20 @@ html,body{
 
 
 .address{
+  opacity: 0;
   font-size: 12pt;
   writing-mode: vertical-rl;
   position: fixed;
-  margin-top: 165px;
+  margin-top: 170px;
   margin-right: -60px;
 }
 
 .sns{
+  opacity: 0;
   font-size: 12pt;
   writing-mode: vertical-rl;
   position: fixed;
-  margin-top: 605px;
+  margin-top: 610px;
   margin-right: -60px;
 }
 
@@ -167,28 +169,26 @@ html,body{
   }
 
   .grid-item{
-    width: 30%;
+    width: 35%;
   }
 
   .address{
     font-size: 10pt;
     width: 10%;
-    margin-top: 70px;
+    margin-top: 150px;
     margin-right: -70px;
   }
 
-.sns{
-  font-size: 10pt;
-  margin-top: 395px;
-  margin-right: -70px;
-  width: 10%;
-}
+  .sns{
+    font-size: 10pt;
+    margin-top: 430px;
+    margin-right: -70px;
+    width: 10%;
+  }
 
-.top-logo img{
-  width: 150px;
-}
-
-
+  .top-logo img{
+    width: 150px;
+  }
 }
 
 
