@@ -26,7 +26,7 @@ $(function(){
        $('.top-slide-container').addClass('slideOutLeft');
 
         setTimeout(function(){
-          $(".container").addClass('animated fadeIn');
+          $(".sns,.address,.container").addClass('animated fadeIn');
         },1500);
     },3000);
   }
